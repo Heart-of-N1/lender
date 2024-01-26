@@ -46,5 +46,8 @@ public class Main {
         setAsPaid("Ben Chee");
         listLoans();
         System.out.println("profit: " + calculateProfitEarned());
+
+        Loan newLoan = new Loan();
+
     }
 }
